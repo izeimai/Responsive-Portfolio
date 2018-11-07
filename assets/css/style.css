@@ -143,10 +143,51 @@ textarea {
 /* Media queries */
 @media screen and (max-width:980px) {
     
+    .container {
+        width: auto;
+        }
+    
+
 }
 
-@media screen and (max-width:7680px) {
-    
+@media screen and (max-width:768px) {
+    .container {
+        width: 95%
+    }
+
+    header {
+        height: 68px;
+    }
+
+    #yourName {
+        margin: 0 auto;
+    }
+
+    nav {
+        margin: 25px 0;
+    }
+
+    #main,
+    hr {
+        width: 95%;
+    }
+
+    .workfolder {
+        width: 46%;
+        height: auto;
+        margin: 0 10px;
+    }
+
+    img {
+        width: 100%;
+
+    }
+
+    input,
+    textarea {
+        width: 95%;
+    }
+
 }
 
 @media screen and (max-width:640px) {
@@ -170,6 +211,7 @@ textarea {
         width: 100%;
         float: none;
         margin: 12px auto;
+        margin-left: auto;
         display: block;
     }
 
